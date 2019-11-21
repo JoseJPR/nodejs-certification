@@ -106,6 +106,14 @@ This repository contains practical examples for each of the points in the offici
   - Testing synchronous code
   - Testing asynchronous code
 
+## 🌍 Websites of Interest
+
+* Generic \
+  [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+
+* Child Processes \
+  [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
+
 ## 📌 Methodologies and Guidelines
 
 * ESTlint, tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. \
