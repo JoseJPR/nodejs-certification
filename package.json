@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-certification",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/nodejs-certification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/nodejs-certification/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/nodejs-certification#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "pretty-console-colors": "^1.1.1"
+  }
+}
