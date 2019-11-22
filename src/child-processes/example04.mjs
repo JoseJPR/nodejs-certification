@@ -2,5 +2,5 @@
  * Description: fork function.
  */
 
- /** Import generics dependences */
+/** Import generics dependences */
 import 'pretty-console-colors';

@@ -113,6 +113,7 @@ This repository contains practical examples for each of the points in the offici
 
 * Child Processes \
   [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
+  [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
 
 ## 📌 Methodologies and Guidelines
 
