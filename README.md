@@ -139,7 +139,7 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 
 ## 📂 Code scaffolding
 
-```
+```any
 /
 ├── assets 🌈               # Images Sources.
 |   └── ...                 # ...
@@ -175,11 +175,12 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   ├── child-processes     # Child Processes.
 |   |   ├── example01       # spawn function.
 |   |   ├── example02       # exec and execSync functions.
-|   |   ├── example03       # exec and spawn functions with custom sh file.
-|   |   ├── example04       # exec and spawn functions with magick tool (you need install imagemagick library).
-|   |   ├── example05       # execFile and execFileSync functions.
-|   |   ├── example06       # fork function.
-|   |   ├── example07       # close, disconnect, error, exits and message events.
+|   |   ├── example03       # spawn and spawnSync functions.
+|   |   ├── example04       # exec and spawn functions with custom sh file.
+|   |   ├── example05       # exec and spawn functions with magick tool (you need install imagemagick library).
+|   |   ├── example06       # execFile and execFileSync functions.
+|   |   ├── example07       # fork function.
+|   |   ├── example08       # close, disconnect, error, exits and message events.
 |   |   ├── test.sh         # Sh example file.
 |   |   ├── cat.jpg         # Image cat example.
 |   |   └── ...             # ...

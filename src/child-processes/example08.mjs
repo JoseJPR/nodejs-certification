@@ -1,5 +1,5 @@
 /**
- * Description: fork function.
+ * Description: close, disconnect, error, exits and message events.
  */
 
 /** Import generics dependences */
