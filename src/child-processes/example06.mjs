@@ -1,5 +1,5 @@
 /**
- * Description: execFile and execFileSync functions.
+ * Description: fork function.
  */
 
 /** Import generics dependences */

@@ -1,5 +1,5 @@
 /**
- * Description: execFile and execFileSync functions.
+ * Description: close, disconnect, error, exits and message events.
  */
 
 /** Import generics dependences */

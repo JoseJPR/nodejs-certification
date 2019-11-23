@@ -21,7 +21,7 @@ const fncSpawn = () => {
   bat.on('exit', (code) => {
     console.info(`[fncSpawn] Child exited with code ${code}`);
   });
-}
+};
 fncSpawn();
 
 // Launch spawn function and get buffer to transform to string to show folders and files list.
@@ -39,5 +39,5 @@ const fncSpawnBufferString = () => {
   bat.on('exit', (code) => {
     console.info(`[fncSpawnBufferString] Child exited with code ${code}`);
   });
-}
+};
 fncSpawnBufferString();

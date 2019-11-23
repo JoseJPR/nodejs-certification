@@ -1,0 +1,52 @@
+[INIT] timestamp: 1574497721650 > DNSCHANNEL(10): / trigger: 0 / execution: 0 / resource: [object ChannelWrap]
+[INIT] timestamp: 1574497721660 > TickObject(11): / trigger: 0 / execution: 0 / resource: [object Object]
+[INIT] timestamp: 1574497721663 > TCPSERVERWRAP(16): / trigger: 11 / execution: 11 / resource: [object TCP]
+[INIT] timestamp: 1574497721664 > TickObject(17): / trigger: 16 / execution: 11 / resource: [object Object]
+[INIT] timestamp: 1574497721666 > TTYWRAP(18): / trigger: 17 / execution: 17 / resource: [object TTY]
+[INIT] timestamp: 1574497721668 > TickObject(19): / trigger: 17 / execution: 17 / resource: [object Object]
+[DESTROY] timestamp: 1574497721668 > asyncId: 11 
+[DESTROY] timestamp: 1574497721668 > asyncId: 17 
+[DESTROY] timestamp: 1574497721668 > asyncId: 19 
+[DESTROY] timestamp: 1574497721669 > asyncId: 9 
+[INIT] timestamp: 1574497726246 > TCPWRAP(20): / trigger: 16 / execution: 0 / resource: [object TCP]
+[INIT] timestamp: 1574497726248 > Timeout(21): / trigger: 20 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726249 > HTTPINCOMINGMESSAGE(22): / trigger: 20 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726249 > Timeout(23): / trigger: 20 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726250 > TickObject(24): / trigger: 20 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726250 > TCPWRAP(25): / trigger: 16 / execution: 0 / resource: [object TCP]
+[INIT] timestamp: 1574497726251 > Timeout(26): / trigger: 25 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726252 > HTTPINCOMINGMESSAGE(27): / trigger: 25 / execution: 16 / resource: [object Object]
+[INIT] timestamp: 1574497726252 > TickObject(28): / trigger: 25 / execution: 16 / resource: [object Object]
+[DESTROY] timestamp: 1574497726252 > asyncId: 24 
+[DESTROY] timestamp: 1574497726252 > asyncId: 28 
+[INIT] timestamp: 1574497726254 > PROMISE(29): / trigger: 22 / execution: 22 / resource: [object PromiseWrap]
+[INIT] timestamp: 1574497726255 > PROMISE(30): / trigger: 22 / execution: 22 / resource: [object PromiseWrap]
+[INIT] timestamp: 1574497726255 > PROMISE(31): / trigger: 22 / execution: 22 / resource: [object PromiseWrap]
+[INIT] timestamp: 1574497726270 > TCPWRAP(32): / trigger: 22 / execution: 22 / resource: [object TCP]
+[INIT] timestamp: 1574497726270 > TLSWRAP(33): / trigger: 22 / execution: 22 / resource: [object TLSWrap]
+[INIT] timestamp: 1574497726271 > TickObject(34): / trigger: 22 / execution: 22 / resource: [object Object]
+[INIT] timestamp: 1574497726271 > GETADDRINFOREQWRAP(35): / trigger: 33 / execution: 22 / resource: [object GetAddrInfoReqWrap]
+[INIT] timestamp: 1574497726272 > TickObject(36): / trigger: 22 / execution: 22 / resource: [object Object]
+[INIT] timestamp: 1574497726273 > PROMISE(37): / trigger: 30 / execution: 22 / resource: [object PromiseWrap]
+[INIT] timestamp: 1574497726273 > TickObject(38): / trigger: 22 / execution: 22 / resource: [object Object]
+[INIT] timestamp: 1574497726274 > HTTPCLIENTREQUEST(39): / trigger: 36 / execution: 36 / resource: [object Object]
+[INIT] timestamp: 1574497726274 > TickObject(40): / trigger: 36 / execution: 36 / resource: [object Object]
+[INIT] timestamp: 1574497726274 > PROMISE(41): / trigger: 31 / execution: 0 / resource: [object PromiseWrap]
+[DESTROY] timestamp: 1574497726274 > asyncId: 34 
+[DESTROY] timestamp: 1574497726275 > asyncId: 36 
+[DESTROY] timestamp: 1574497726275 > asyncId: 38 
+[DESTROY] timestamp: 1574497726275 > asyncId: 40 
+[INIT] timestamp: 1574497726287 > TCPCONNECTWRAP(42): / trigger: 32 / execution: 35 / resource: [object TCPConnectWrap]
+[DESTROY] timestamp: 1574497726288 > asyncId: 35 
+[INIT] timestamp: 1574497726304 > WRITEWRAP(43): / trigger: 33 / execution: 42 / resource: [object WriteWrap]
+[DESTROY] timestamp: 1574497726304 > asyncId: 42 
+[INIT] timestamp: 1574497726350 > TickObject(44): / trigger: 39 / execution: 39 / resource: [object Object]
+[INIT] timestamp: 1574497726350 > TickObject(45): / trigger: 39 / execution: 39 / resource: [object Object]
+[INIT] timestamp: 1574497726351 > TickObject(46): / trigger: 33 / execution: 33 / resource: [object Object]
+[INIT] timestamp: 1574497726351 > TickObject(47): / trigger: 44 / execution: 44 / resource: [object Object]
+[INIT] timestamp: 1574497726351 > TickObject(48): / trigger: 44 / execution: 44 / resource: [object Object]
+[INIT] timestamp: 1574497726352 > TickObject(49): / trigger: 44 / execution: 44 / resource: [object Object]
+[INIT] timestamp: 1574497726352 > TickObject(50): / trigger: 45 / execution: 45 / resource: [object Object]
+[INIT] timestamp: 1574497726353 > TickObject(51): / trigger: 47 / execution: 47 / resource: [object Object]
+[INIT] timestamp: 1574497726353 > SHUTDOWNWRAP(52): / trigger: 33 / execution: 51 / resource: [object ShutdownWrap]
+[INIT] timestamp: 1574497726354 > TickObject(53): / trigger: 37 / execution: 37 / resource: [object Object]

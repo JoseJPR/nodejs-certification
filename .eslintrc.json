@@ -15,5 +15,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "guard-for-in": "off",
+        "no-console": "off",
+        "no-restricted-syntax": "off",
+        "no-underscore-dangle": "off"
     }
 }

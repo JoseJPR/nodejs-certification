@@ -2,7 +2,7 @@
  * Description: Create a basic http server and return json example.
  */
 
- /** Import generics dependences */
+/** Import generics dependences */
 import http from 'http';
 import 'pretty-console-colors';
 
@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify({
-    result: 'Hello, World!'
+    result: 'Hello, World!',
   }));
 });
 

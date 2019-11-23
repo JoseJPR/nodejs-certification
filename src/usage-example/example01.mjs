@@ -2,7 +2,7 @@
  * Description: Create a basic http server and return text example.
  */
 
- /** Import generics dependences */
+/** Import generics dependences */
 import http from 'http';
 import 'pretty-console-colors';
 

@@ -1,5 +1,5 @@
 /**
- * Description: Work with compare, concat, equals, includes, 
+ * Description: Work with compare, concat, equals, includes,
  * indexOf, lastIndexOf, keys and slice functions.
  */
 

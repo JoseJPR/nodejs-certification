@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello World"
+echo "\n Hi from .sh file :)"
