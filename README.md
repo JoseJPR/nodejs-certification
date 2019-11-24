@@ -185,7 +185,6 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |   ├── example08         # fork function with process ls and sh.
 |   |   ├── example08-sub01   # sub process spawnSync ls fork function.
 |   |   ├── example08-sub01   # sub process spawnSync sh fork function.
-|   |   ├── example09         # close, disconnect, error, exits and message events.
 |   |   ├── test.sh           # Sh example file.
 |   |   ├── cat.jpg           # Image cat example.
 |   |   └── ...               # ...
