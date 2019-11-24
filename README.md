@@ -141,49 +141,54 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 
 ```any
 /
-├── assets 🌈               # Images Sources.
-|   └── ...                 # ...
+├── assets 🌈                 # Images Sources.
+|   └── ...                   # ...
 |   |
-├── env 🔌                  # Configure enviroments deploy.
-|   └── ...                 # ...
+├── env 🔌                    # Configure enviroments deploy.
+|   └── ...                   # ...
 |   |
 ├── src 💯
-|   ├── usage-example       # Usage & Example.
-|   |   ├── example01       # Http server return pain text.
-|   |   └── example02       # Http server return json object.
+|   ├── usage-example         # Usage & Example.
+|   |   ├── example01         # Http server return pain text.
+|   |   └── example02         # Http server return json object.
 |   |
-|   ├── assertion-testing   # Assertion Testing.  
-|   |   ├── example01       # Equal numbers or not with assert.strictEqual method.
-|   |   ├── example02       # Equal numbers and string or not with assert.equal method.
-|   |   ├── example03       # Equal arrays values and structure or not with strict.deepEqual method.
-|   |   ├── example04       # Equal objects values and structure or not with strict.deepEqual method.
-|   |   └── example05       # Http request with Reject results and objects results with structure and typeof control.
+|   ├── assertion-testing     # Assertion Testing.  
+|   |   ├── example01         # Equal numbers or not with assert.strictEqual method.
+|   |   ├── example02         # Equal numbers and string or not with assert.equal method.
+|   |   ├── example03         # Equal arrays values and structure or not with strict.deepEqual method.
+|   |   ├── example04         # Equal objects values and structure or not with strict.deepEqual method.
+|   |   └── example05         # Http request with Reject results and objects results with structure and typeof control.
 |   |
-|   ├── async-hooks         # Async Hooks.
-|   |   ├── example01       # Create http server with external request to get content. This functions launch async hooks and save into .log file.
-|   |   ├── test.log        # Log example file.
-|   |   └── ...             # ...
+|   ├── async-hooks           # Async Hooks.
+|   |   ├── example01         # Create http server with external request to get content. This functions launch async hooks and save into .log file.
+|   |   ├── test.log          # Log example file.
+|   |   └── ...               # ...
 |   |
-|   ├── buffer              # Buffer.
-|   |   ├── example01       # Create first safe and not Buffer empty and with string.
-|   |   ├── example02       # Get length of string and buffer string.
-|   |   ├── example03       # Is Buffer and is Encoding functions.
-|   |   ├── example04       # Work with compare, concat, equal, includes, indexOf, lastIndeOf, keys and slice functions.
-|   |   ├── example05       # Work with toString and toJSON functions.
-|   |   └── ...             # ...
+|   ├── buffer                # Buffer.
+|   |   ├── example01         # Create first safe and not Buffer empty and with string.
+|   |   ├── example02         # Get length of string and buffer string.
+|   |   ├── example03         # Is Buffer and is Encoding functions.
+|   |   ├── example04         # Work with compare, concat, equal, includes, indexOf, lastIndeOf, keys and slice functions.
+|   |   ├── example05         # Work with toString and toJSON functions.
+|   |   └── ...               # ...
 |   |
-|   ├── child-processes     # Child Processes.
-|   |   ├── example01       # spawn function.
-|   |   ├── example02       # exec and execSync functions.
-|   |   ├── example03       # spawn and spawnSync functions.
-|   |   ├── example04       # exec and spawn functions with custom sh file.
-|   |   ├── example05       # exec and spawn functions with magick tool (you need install imagemagick library).
-|   |   ├── example06       # execFile and execFileSync functions.
-|   |   ├── example07       # fork function.
-|   |   ├── example08       # close, disconnect, error, exits and message events.
-|   |   ├── test.sh         # Sh example file.
-|   |   ├── cat.jpg         # Image cat example.
-|   |   └── ...             # ...
+|   ├── child-processes       # Child Processes.
+|   |   ├── example01         # spawn function.
+|   |   ├── example02         # exec and execSync functions.
+|   |   ├── example03         # spawn and spawnSync functions.
+|   |   ├── example04         # exec and spawn functions with custom sh file.
+|   |   ├── example05         # exec and spawn functions with magick tool (you need install imagemagick library).
+|   |   ├── example06         # execFile and execFileSync functions.
+|   |   ├── example07         # fork function with example messages to childs.
+|   |   ├── example07-sub01   # sub process message fork function.
+|   |   ├── example07-sub01   # sub process message fork function.
+|   |   ├── example08         # fork function with process ls and sh.
+|   |   ├── example08-sub01   # sub process spawnSync ls fork function.
+|   |   ├── example08-sub01   # sub process spawnSync sh fork function.
+|   |   ├── example09         # close, disconnect, error, exits and message events.
+|   |   ├── test.sh           # Sh example file.
+|   |   ├── cat.jpg           # Image cat example.
+|   |   └── ...               # ...
 |   |
 |   └── ...
 └── ...
