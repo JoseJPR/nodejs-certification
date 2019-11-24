@@ -110,11 +110,11 @@ This repository contains practical examples for each of the points in the offici
 ## 🌍 Websites of Interest
 
 - Generic \
-  [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+  [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) \
   [Education in Node.js](https://github.com/nodejs/education)
 
 - Child Processes \
-  [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
+  [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) \
   [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
 
 ## 📌 Methodologies and Guidelines
