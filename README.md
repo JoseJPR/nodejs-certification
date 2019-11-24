@@ -111,6 +111,7 @@ This repository contains practical examples for each of the points in the offici
 
 - Generic \
   [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+  [Education in Node.js](https://github.com/nodejs/education)
 
 - Child Processes \
   [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
