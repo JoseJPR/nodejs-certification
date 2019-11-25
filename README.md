@@ -117,6 +117,13 @@ This repository contains practical examples for each of the points in the offici
   [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) \
   [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
 
+- Stream \
+  [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
+
+- Worker Threads \
+  [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/) \
+  [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
+
 ## 📌 Methodologies and Guidelines
 
 ESTlint, tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. \
@@ -192,6 +199,7 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |
 |   ├── cluster               # Cluster.
 |   |   ├── example01         # Show CPUs number and create a cluster for each core.
+|   |   ├── example02         # Control cluster waiting or working any task.
 |   |   └── ...               # ...
 |   |
 |   └── ...
