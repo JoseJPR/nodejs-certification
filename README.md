@@ -21,7 +21,6 @@ This repository contains practical examples for each of the points in the offici
 [Buffer](https://nodejs.org/api/buffer.html) \
 [Child Processes](https://nodejs.org/api/child_process.html) \
 [Cluster](https://nodejs.org/api/cluster.html) \
-[Command Line Options](https://nodejs.org/api/cli.html) \
 [Console](https://nodejs.org/api/console.html) \
 [Crypto](https://nodejs.org/api/crypto.html) \
 [Debugger](https://nodejs.org/api/debugger.html) \
@@ -200,6 +199,12 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   ├── cluster               # Cluster.
 |   |   ├── example01         # Show CPUs number and create a cluster for each core.
 |   |   ├── example02         # Control cluster waiting or working any task.
+|   |   └── ...               # ...
+|   |
+|   ├── console               # Console.
+|   |   ├── example01         # Example basic console log, error and warn.
+|   |   ├── example02         # Show and get log and save into .log files (out and error files).
+|   |   ├── example03         # Clear console with setTimeout into async function.
 |   |   └── ...               # ...
 |   |
 |   └── ...
