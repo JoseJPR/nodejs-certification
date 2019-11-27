@@ -116,6 +116,9 @@ This repository contains practical examples for each of the points in the offici
   [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) \
   [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
 
+- Console \
+  [Explore Console in Nodejs](https://blog.bitsrc.io/console-in-nodejs-ffbf547df843)
+
 - Stream \
   [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
@@ -202,9 +205,14 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |   └── ...               # ...
 |   |
 |   ├── console               # Console.
-|   |   ├── example01         # Example basic console log, error and warn.
-|   |   ├── example02         # Show and get log and save into .log files (out and error files).
-|   |   ├── example03         # Clear console with setTimeout into async function.
+|   |   ├── example01         # Basic console log, error and warn.
+|   |   ├── example02         # Console log with params added.
+|   |   ├── example03         # Show and get log and save into .log files (out and error files).
+|   |   ├── example04         # Clear console with setTimeout into async function.
+|   |   ├── example05         # Console assert, count, countReset.
+|   |   ├── example06         # Example with console group and groupEnd.
+|   |   ├── example07         # Example with console time and timeEnd.
+|   |   ├── example07         # Example with console table with arrays of numbers, objects and more arrays of strings.
 |   |   └── ...               # ...
 |   |
 |   └── ...

@@ -1,5 +1,5 @@
 /**
- * Description: Example basic console log, error and warn.
+ * Description: Basic console log, error and warn.
  */
 
 console.log('hello world');
