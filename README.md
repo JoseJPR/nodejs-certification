@@ -212,7 +212,7 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |   ├── example05         # Console assert, count, countReset.
 |   |   ├── example06         # Example with console group and groupEnd.
 |   |   ├── example07         # Example with console time and timeEnd.
-|   |   ├── example07         # Example with console table with arrays of numbers, objects and more arrays of strings.
+|   |   ├── example08         # Example with console table with arrays of numbers, objects and more arrays of strings.
 |   |   └── ...               # ...
 |   |
 |   └── ...
