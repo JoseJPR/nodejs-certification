@@ -209,10 +209,10 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |   ├── example02         # Console log with params added.
 |   |   ├── example03         # Show and get log and save into .log files (out and error files).
 |   |   ├── example04         # Clear console with setTimeout into async function.
-|   |   ├── example05         # Console assert, count, countReset.
-|   |   ├── example06         # Example with console group and groupEnd.
-|   |   ├── example07         # Example with console time and timeEnd.
-|   |   ├── example08         # Example with console table with arrays of numbers, objects and more arrays of strings.
+|   |   ├── example05         # Assert, count, countReset.
+|   |   ├── example06         # Group and groupEnd.
+|   |   ├── example07         # Time and timeEnd.
+|   |   ├── example08         # Table with arrays of numbers, objects and more arrays of strings.
 |   |   └── ...               # ...
 |   |
 |   └── ...

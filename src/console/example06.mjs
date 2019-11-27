@@ -1,5 +1,5 @@
 /**
- * Description: Example with console group and groupEnd.
+ * Description: Group and groupEnd.
  */
 
 // Create group one level

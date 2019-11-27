@@ -1,6 +1,5 @@
 /**
- * Description: Example with console table with arrays of numbers,
- * objects and more arrays of strings.
+ * Description: Table with arrays of numbers, objects and more arrays of strings.
  */
 
 // Define arrays tables.

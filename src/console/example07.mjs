@@ -1,5 +1,5 @@
 /**
- * Description: Example with console time and timeEnd.
+ * Description: Time and timeEnd.
  */
 
 // Create group one level

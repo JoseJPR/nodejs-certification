@@ -1,5 +1,5 @@
 /**
- * Description: Console assert, count, countReset.
+ * Description: Assert, count, countReset.
  */
 
 /**
