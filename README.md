@@ -22,9 +22,6 @@ This repository contains practical examples for each of the points in the offici
 [Child Processes](https://nodejs.org/api/child_process.html) \
 [Cluster](https://nodejs.org/api/cluster.html) \
 [Console](https://nodejs.org/api/console.html) \
-[Debugger](https://nodejs.org/api/debugger.html) \
-[DNS](https://nodejs.org/api/dns.html) \
-[Domain](https://nodejs.org/api/domain.html) \
 [ECMAScript Modules](https://nodejs.org/api/esm.html) \
 [Errors](https://nodejs.org/api/errors.html) \
 [Events](https://nodejs.org/api/events.html) \
