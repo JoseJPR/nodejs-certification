@@ -1,0 +1,9 @@
+{
+  "name": "example02",
+  "version": "1.0.0",
+  "main": "example02.js",
+  "type": "module",
+  "dependencies": {
+    "example-module": "./libs/example-module"
+  }
+}

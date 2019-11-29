@@ -1,0 +1,9 @@
+{
+  "name": "example-module",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./user": "./src/user-module.js",
+    "./article": "./src/article-module.js"
+  }
+}
