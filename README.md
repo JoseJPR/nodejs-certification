@@ -222,6 +222,8 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   ├── esm                   # ECMAScript Modules.
 |   |   ├── example01         # Import esm module with .js extension file.
 |   |   ├── example02         # Import esm module from "libs" folder into your js application with .js extension file.
+|   |   ├── example03         # Import esm submodule from "libs" folder into your js
+ * application with .js extension file.
 |   |   └── ...               # ...
 |   |
 |   └── ...

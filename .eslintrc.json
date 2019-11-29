@@ -18,6 +18,8 @@
         "guard-for-in": "off",
         "no-console": "off",
         "no-restricted-syntax": "off",
-        "no-underscore-dangle": "off"
+        "no-underscore-dangle": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off"
     }
 }
