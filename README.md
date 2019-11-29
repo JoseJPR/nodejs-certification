@@ -22,7 +22,6 @@ This repository contains practical examples for each of the points in the offici
 [Child Processes](https://nodejs.org/api/child_process.html) \
 [Cluster](https://nodejs.org/api/cluster.html) \
 [Console](https://nodejs.org/api/console.html) \
-[Crypto](https://nodejs.org/api/crypto.html) \
 [Debugger](https://nodejs.org/api/debugger.html) \
 [DNS](https://nodejs.org/api/dns.html) \
 [Domain](https://nodejs.org/api/domain.html) \
@@ -119,6 +118,11 @@ This repository contains practical examples for each of the points in the offici
 - Console \
   [Explore Console in Nodejs](https://blog.bitsrc.io/console-in-nodejs-ffbf547df843)
 
+- ECMAScript Modules \
+  [Node v13.2.0 Blog](https://nodejs.org/en/blog/release/v13.2.0/) \
+  [Mozilla JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) \
+  [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
+
 - Stream \
   [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
@@ -213,6 +217,11 @@ $node  --experimental-modules ./src/'folder'/'file.mjs'
 |   |   ├── example06         # Group and groupEnd.
 |   |   ├── example07         # Time and timeEnd.
 |   |   ├── example08         # Table with arrays of numbers, objects and more arrays of strings.
+|   |   └── ...               # ...
+|   |
+|   ├── esm                   # ECMAScript Modules.
+|   |   ├── example01         # Import esm module with .js extension file.
+|   |   ├── example02         # Import esm module from "libs" folder into your js application with .js extension file.
 |   |   └── ...               # ...
 |   |
 |   └── ...

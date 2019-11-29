@@ -1,0 +1,6 @@
+{
+  "name": "example-module",
+  "version": "1.0.0",
+  "main": "example-module.js",
+  "type": "module"
+}
