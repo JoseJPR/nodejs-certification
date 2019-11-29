@@ -147,8 +147,11 @@ $npm i
 ### Running the App
 
 ```bash
-# Run
+# If your NodeJS version is previous than v13.2.0
 $node  --experimental-modules ./src/'folder'/'file.mjs'
+
+# If your NodeJS version is v13.2.0 or higher
+$node ./src/'folder'/'file.mjs'
 ```
 
 ## 📂 Code scaffolding
