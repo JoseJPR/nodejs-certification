@@ -230,6 +230,7 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example02         # With properties of an object in try/catch.
 |   |   ├── example03         # In callback functions.
 |   |   ├── example04         # In try/catch with async and sync functions.
+|   |   ├── example05         # Custom message Error into throw.
 |   |   └── ...               # ...
 |   |
 |   └── ...
