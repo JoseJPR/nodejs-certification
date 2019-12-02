@@ -225,6 +225,13 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example03         # Import esm submodule from "libs" folder into your js application with .js extension file.
 |   |   └── ...               # ...
 |   |
+|   ├── errors                # Errors.
+|   |   ├── example01         # Variable no defined into try/catch.
+|   |   ├── example02         # With properties of an object in try/catch.
+|   |   ├── example03         # In callback functions.
+|   |   ├── example04         # In try/catch with async and sync functions.
+|   |   └── ...               # ...
+|   |
 |   └── ...
 └── ...
 ```
