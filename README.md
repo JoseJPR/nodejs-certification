@@ -120,6 +120,9 @@ This repository contains practical examples for each of the points in the offici
   [Mozilla JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) \
   [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
 
+- Events \
+  [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+
 - Stream \
   [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
