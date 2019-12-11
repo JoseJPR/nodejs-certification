@@ -256,6 +256,9 @@ $node ./src/'folder'/'file.mjs'
 |   |   └── ...               # ...
 |   |
 |   ├── file-system           # File System.
+|   |   ├── example01         # Open and close file by name with concrete path.
+|   |   ├── example02         # Open and close with Url and Buffer.
+|   |   ├── example03         # Get File Descriptors with stat function from json and txt files.
 |   |   └── ...               # ...
 |   |
 |   └── ...
