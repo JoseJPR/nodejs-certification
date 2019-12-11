@@ -137,6 +137,7 @@ This repository contains practical examples for each of the points in the offici
 - Control Flow \
   - [Node Book Control Flow - Mixu](http://book.mixu.net/node/ch7.html)
   - [Control Flow in Node - Tim Caswell](https://howtonode.org/control-flow)
+  - [Understanding Node.js Async Flows: Parallel, Serial, Waterfall and Queues](https://medium.com/velotio-perspectives/understanding-node-js-async-flows-parallel-serial-waterfall-and-queues-6f9c4badbc17)
 
 ## 📌 Methodologies and Guidelines
 
