@@ -134,6 +134,10 @@ This repository contains practical examples for each of the points in the offici
   - [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
   - [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
 
+- Control Flow \
+  - [Node Book Control Flow - Mixu](http://book.mixu.net/node/ch7.html)
+  - [Control Flow in Node - Tim Caswell](https://howtonode.org/control-flow)
+
 ## 📌 Methodologies and Guidelines
 
 ESTlint, tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. \
