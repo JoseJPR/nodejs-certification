@@ -104,31 +104,35 @@ This repository contains practical examples for each of the points in the offici
 
 ## 🌍 Websites of Interest
 
-- Generic \
-  [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) \
-  [Education in Node.js](https://github.com/nodejs/education)
+- Generic
+  - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+  - [Education in Node.js](https://github.com/nodejs/education)
+  - [JavaScript Visualized: Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
+  - [Event Loop and the Big Picture](https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810?)
+  - [Timers, Immediates and Process.nextTick](https://blog.insiderattack.net/timers-immediates-and-process-nexttick-nodejs-event-loop-part-2-2c53fd511bb3)
+  - [setTimeout vs setImmediate vs process.nextTick](https://dev.to/logicmason/settimeout-vs-setimmediate-vs-process-nexttick-3lj2)
 
-- Child Processes \
-  [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) \
-  [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
+- Child Processes
+  - [Node.js Child Processes: Everything you need to know](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
+  - [Understanding execFile, spawn, exec, and fork in Node.js](https://dzone.com/articles/understanding-execfile-spawn-exec-and-fork-in-node)
 
-- Console \
-  [Explore Console in Nodejs](https://blog.bitsrc.io/console-in-nodejs-ffbf547df843)
+- Console
+  - [Explore Console in Nodejs](https://blog.bitsrc.io/console-in-nodejs-ffbf547df843)
 
-- ECMAScript Modules \
-  [Node v13.2.0 Blog](https://nodejs.org/en/blog/release/v13.2.0/) \
-  [Mozilla JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) \
-  [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
+- ECMAScript Modules
+  - [Node v13.2.0 Blog](https://nodejs.org/en/blog/release/v13.2.0/)
+  - [Mozilla JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+  - [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
 
-- Events \
-  [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+- Events
+  - [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 
-- Stream \
-  [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
+- Stream
+  - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
 - Worker Threads \
-  [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/) \
-  [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
+  - [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
+  - [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
 
 ## 📌 Methodologies and Guidelines
 
@@ -240,8 +244,10 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example01         # Differents instances and times.
 |   |   ├── example02         # Define arguments and show.
 |   |   ├── example03         # Extends class EventEmitter and create main scope with custom properties.
-|   |   ├── example04         # ...
-|   |   ├── example05         # ...
+|   |   ├── example04         # What happens to the functions: setTimeout, setImmediate and process.nextTick.
+|   |   ├── example05         # Handling events only once.
+|   |   ├── example06         # Remove event with removeListener.
+|   |   ├── example07         # Set Max Listeners to event with setMaxListeners.
 |   |   └── ...               # ...
 |   |
 |   └── ...
