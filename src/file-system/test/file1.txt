@@ -1,0 +1,1 @@
+Hi this is the content of file1.txt file.

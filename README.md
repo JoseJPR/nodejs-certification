@@ -259,6 +259,13 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example01         # Open and close file by name with concrete path.
 |   |   ├── example02         # Open and close with Url and Buffer.
 |   |   ├── example03         # Get File Descriptors with stat function from json and txt files.
+|   |   ├── example04         # Open folder and file details with Sync functions.
+|   |   ├── example05         # Read folder and file content with Sync functions.
+|   |   ├── example06         # Get folder content with Callback, Sync and Promises.
+|   |   ├── example07         # TODO.
+|   |   ├── example08         # TODO.
+|   |   ├── example09         # TODO.
+|   |   ├── example10         # TODO.
 |   |   └── ...               # ...
 |   |
 |   └── ...
