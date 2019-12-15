@@ -133,6 +133,7 @@ This repository contains practical examples for each of the points in the offici
 - Worker Threads \
   - [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
   - [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
+  - [The Node.js Event Loop: Not So Single Threaded](https://www.youtube.com/watch?v=zphcsoSJMvM)
 
 - Control Flow \
   - [Node Book Control Flow - Mixu](http://book.mixu.net/node/ch7.html)
@@ -262,10 +263,10 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example04         # Open folder and file details with Sync functions.
 |   |   ├── example05         # Read folder and file content with Sync functions.
 |   |   ├── example06         # Get folder content with Callback, Sync and Promises.
-|   |   ├── example07         # TODO.
-|   |   ├── example08         # TODO.
-|   |   ├── example09         # TODO.
-|   |   ├── example10         # TODO.
+|   |   ├── example07         # Get file list of folder and content files with Sync.
+|   |   ├── example08         # Get if directory is or not directory and file is or not file.
+|   |   ├── example09         # Access function for get if file exist or not.
+|   |   ├── example10         # Append function for include new data inside file.
 |   |   └── ...               # ...
 |   |
 |   └── ...
