@@ -129,6 +129,7 @@ This repository contains practical examples for each of the points in the offici
 
 - File System
   - [Aprende a usar ReadStreams en NodeJS](https://carlosvillu.com/aprende-a-usar-readstream-en-nodejs/)
+  - [Storing data with Node.js writable streams](http://codewinds.com/blog/2013-08-19-nodejs-writable-streams.html)
 
 - Stream
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
