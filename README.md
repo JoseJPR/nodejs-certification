@@ -127,6 +127,9 @@ This repository contains practical examples for each of the points in the offici
 - Events
   - [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 
+- File System
+  - [Aprende a usar ReadStreams en NodeJS](https://carlosvillu.com/aprende-a-usar-readstream-en-nodejs/)
+
 - Stream
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
@@ -270,8 +273,8 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example11         # Chmod function for set and change permissions of a file.
 |   |   ├── example12         # Chown function for set and change owner and group of a file.
 |   |   ├── example13         # Copy function for copy file from origin to destination.
-|   |   ├── example14         # ...
-|   |   ├── example15         # ...
+|   |   ├── example14         # Create Read Stream from file for get all content and others.
+|   |   ├── example15         # Create file and Write Stream of new file for save all content.
 |   |   └── ...               # ...
 |   |
 |   └── ...
