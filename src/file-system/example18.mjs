@@ -15,6 +15,7 @@ const tmpDir = os.tmpdir();
  * Create a temporal directory with mkdTemp.
  */
 const createTempDirectory = () => {
+  // Create temporal folder.
   fs.mkdtemp(
     `${tmpDir}${path.sep}`,
     (err, folder) => {
@@ -33,6 +34,7 @@ createTempDirectory();
  */
 const createTempDirectorySync = () => {
   try {
+    // Create temporal folder.
     const result = fs.mkdtempSync(`${tmpDir}${path.sep}`);
     console.info(`[createTempDirectorySync] Folder ${result} created.`);
   } catch (err) {

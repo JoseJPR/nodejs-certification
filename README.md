@@ -280,9 +280,9 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example17         # Create directories with mkdir, mkdirSync.
 |   |   ├── example18         # Create temp directories with mkdtemp and mkdtempSync.
 |   |   ├── example19         # Rename file with rename and renameSync functions.
-|   |   ├── example20         #
-|   |   ├── example21         #
-|   |   ├── example22         #
+|   |   ├── example20         # Remove folders with rmdir and rmdirSync functions with recursive option.
+|   |   ├── example21         # Remove files with unlink and unlinkSync functions.
+|   |   ├── example22         # Create listener for get if change the folder and files content.
 |   |   └── ...               # ...
 |   |
 |   └── ...

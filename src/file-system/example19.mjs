@@ -13,6 +13,7 @@ const content = 'The file content';
 
 // Declare mail function for open and close file by name.
 const rename = (actualName, newName) => {
+  // Create file with string content.
   fs.writeFile(
     `${__dirname}/src/file-system/${actualName}`,
     content,
@@ -21,6 +22,8 @@ const rename = (actualName, newName) => {
         console.error(errWriteFile);
         throw errWriteFile;
       }
+
+      // Rename file name.
       fs.rename(
         `${__dirname}/src/file-system/${actualName}`,
         `${__dirname}/src/file-system/${newName}`,
@@ -35,20 +38,23 @@ const rename = (actualName, newName) => {
     },
   );
 };
-
-// Get file with json extension.
 rename('test-actualname', 'test-newname');
 
 // Declare mail function for open and close file by name.
 const renameSync = (actualName, newName) => {
   try {
+    // Create file with string content.
     fs.writeFileSync(`${__dirname}/src/file-system/${actualName}`, content);
-    fs.renameSync(`${__dirname}/src/file-system/${actualName}`, `${__dirname}/src/file-system/${newName}`);
+    console.info(`[renameSync] File ${__dirname}/src/file-system/${actualName} created.`);
+
+    // Rename file name.
+    fs.renameSync(
+      `${__dirname}/src/file-system/${actualName}`,
+      `${__dirname}/src/file-system/${newName}`,
+    );
     console.info(`[renameSync] File ${__dirname}/src/file-system/${actualName} renamed.`);
   } catch (err) {
     console.error(err);
   }
 };
-
-// Get file with json extension.
 renameSync('test-actualnameSync', 'test-newnameSync');
