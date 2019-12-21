@@ -13,6 +13,7 @@ const __dirname = path.resolve();
 const getFileByName = (fileName) => {
   fs.open(`${__dirname}/src/file-system/${fileName}`, 'r', (errOpen, fd) => {
     if (errOpen) throw errOpen;
+    console.info('[getFileByName] fd', fd);
     fs.close(fd, (errClose) => {
       if (errClose) throw errClose;
     });

@@ -1,5 +1,5 @@
 /**
- * Description: Open folder and file details with Sync functions.
+ * Description: Open folder and file details with opendirSync and openSync functions.
  */
 
 /** Import generics dependences */

@@ -264,8 +264,8 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example01         # Open and close file by name with concrete path.
 |   |   ├── example02         # Open and close with Url and Buffer.
 |   |   ├── example03         # Get File Descriptors with stat function from json and txt files.
-|   |   ├── example04         # Open folder and file details with Sync functions.
-|   |   ├── example05         # Read folder and file content with Sync functions.
+|   |   ├── example04         # Open folder and file details with opendirSync and openSync functions.
+|   |   ├── example05         # Read folder and file content with readdirSync and readFileSync functions.
 |   |   ├── example06         # Get folder content with Callback, Sync and Promises.
 |   |   ├── example07         # Get file list of folder and content files with Sync.
 |   |   ├── example08         # Get if directory is or not directory and file is or not file.
@@ -276,6 +276,13 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example13         # Copy function for copy file from origin to destination.
 |   |   ├── example14         # Create Read Stream from file for get all content and others.
 |   |   ├── example15         # Create file and Write Stream of new file for save all content.
+|   |   ├── example16         # Create symbolic link with link function.
+|   |   ├── example17         # Create directories with mkdir, mkdirSync.
+|   |   ├── example18         # Create temp directories with mkdtemp and mkdtempSync.
+|   |   ├── example19         # Rename file with rename and renameSync functions.
+|   |   ├── example20         #
+|   |   ├── example21         #
+|   |   ├── example22         #
 |   |   └── ...               # ...
 |   |
 |   └── ...

@@ -1,5 +1,5 @@
 /**
- * Description: Read folder and file content with Sync functions.
+ * Description: Read folder and file content with readdirSync and readFileSync functions.
  */
 
 /** Import generics dependences */
