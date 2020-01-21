@@ -135,12 +135,12 @@ This repository contains practical examples for each of the points in the offici
 - Stream
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
 
-- Worker Threads \
+- Worker Threads
   - [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
   - [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
   - [The Node.js Event Loop: Not So Single Threaded](https://www.youtube.com/watch?v=zphcsoSJMvM)
 
-- Control Flow \
+- Control Flow
   - [Node Book Control Flow - Mixu](http://book.mixu.net/node/ch7.html)
   - [Control Flow in Node - Tim Caswell](https://howtonode.org/control-flow)
   - [Understanding Node.js Async Flows: Parallel, Serial, Waterfall and Queues](https://medium.com/velotio-perspectives/understanding-node-js-async-flows-parallel-serial-waterfall-and-queues-6f9c4badbc17)
