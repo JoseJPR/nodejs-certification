@@ -38,7 +38,7 @@ const appendTextSync = (pathName, text) => {
     fs.appendFileSync(`${__dirname}/src/file-system/${pathName}`, text);
     console.info(`[appendTextSync] Text added inside ${pathName} file!`);
   } catch (err) {
-    console.error(`[appendText] Error adding text inside ${pathName} file!`, err);
+    console.error(`[appendTextSync] Error adding text inside ${pathName} file!`, err);
   }
 };
 appendTextSync('test-append/empty-sync', textToAppendSync);

@@ -1,4 +1,6 @@
-# NodeJS Certification [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+# NodeJS Certification 
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Twitter: JoseJ_PR](https://img.shields.io/twitter/url?color=1991DA&label=Twitter%20%40JoseJ_PR&logo=twitter&logoColor=FFFFFF&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FJoseJ_PR)](https://twitter.com/JoseJ_PR)
 
 ![Logo OpenJS](https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png)
 
@@ -26,7 +28,6 @@ This repository contains practical examples for each of the points in the offici
 [Errors](https://nodejs.org/api/errors.html) \
 [Events](https://nodejs.org/api/events.html) \
 [File System](https://nodejs.org/api/fs.html) \
-[Globals](https://nodejs.org/api/globals.html) \
 [HTTP](https://nodejs.org/api/http.html) \
 [HTTP/2](https://nodejs.org/api/http2.html) \
 [HTTPS](https://nodejs.org/api/https.html) \
@@ -285,6 +286,13 @@ $node ./src/'folder'/'file.mjs'
 |   |   ├── example22         # Create listener for get if change the folder and files content.
 |   |   └── ...               # ...
 |   |
+|   ├── http                  # HTTP.
+|   |   ├── example01         # Get methods and status codes from http.
+|   |   ├── example02         # Create http server and show lifecycle-events.
+|   |   ├── example03         # Create http server with custom routers and reponses for POST or GET methods.
+|   |   ├── example04         # Request to url with method GET and port 80 and received JSON object.
+|   |   ├── example05         # Request to url with method POST and port 80 send and received JSON object.
+|   |   └── ...               # ...
 |   └── ...
 └── ...
 ```
