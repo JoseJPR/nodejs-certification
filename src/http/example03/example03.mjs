@@ -1,5 +1,5 @@
 /**
- * Description: Get methods and status codes from http.
+ * Description: Create http server with custom routers and reponses for POST or GET methods.
  */
 
 /** Import generics dependences */

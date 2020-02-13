@@ -1,5 +1,5 @@
 /**
- * Description: Get methods and status codes from http.
+ * Description: Create http server and show lifecycle-events.
  */
 
 /** Import generics dependences */
