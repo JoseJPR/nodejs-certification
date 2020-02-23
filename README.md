@@ -327,6 +327,7 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example01             # toLowerCase and toUpperCase functions with String.
 |   |   ├── example02             # Collator functions for get order string and sort string by order.
 |   |   ├── example03             # DateTimeFormat for get date with differents languaje and formats.
+|   |   ├── example04             # NumberFormat for format numbers with differents languaje and formats.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
