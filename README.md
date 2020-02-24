@@ -330,6 +330,19 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example04             # NumberFormat for format numbers with differents languaje and formats.
 |   |   └── ...                   # ...
 |   |
+|   ├── modules                   # Modules.
+|   |   ├── example01             # Module Exports and Require consts with strings values.
+|   |   ├── example02             # Module Exports and Require function for sum two digits.
+|   |   ├── example03             # Module Exports and Require class with methods.
+|   |   ├── example04             # Module Exports and Require classes extends with methods.
+|   |   ├── example05             # Module Exports and Require classes extends with static method.
+|   |   ├── example06             # Export Default and Import class extends with static method.
+|   |   ├── example07             # Export and Import classes extends with static method.
+|   |   ├── example08             # Two Require of the same Module assign with Require Cache just once.
+|   |   ├── example09             # Require JS Module and JSON File.
+|   |   ├── example10             # Require JS Module from folder with Package.json file.
+|   |   └── ...                   # ...
+|   |
 |   └── ...
 └── ...
 ```
