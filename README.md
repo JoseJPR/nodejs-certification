@@ -344,9 +344,10 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── net                       # Net.
-|   |   ├── example01             # Server and Client Net Connection with emit messages and Close Socket Connection.
-|   |   ├── example02             # Server and Client Net Connection with severals messages from client Without Close Socket.
-|   |   ├── example03             # Server and Two Clients Net Connections with severals messages from clientes Without Close Socket.
+|   |   ├── example01             # Server and Client with emit messages and Close Socket Connection.
+|   |   ├── example02             # Server and Client with severals messages from client Without Close Socket.
+|   |   ├── example03             # Server and Two Clients send severals messages to all clientes Without Close Socket.
+|   |   ├── example04             # Server and two clients and send Message to differents client Pear to Pear.
 |   |   └── ...                   # ...
 |   |
 |   └── ...

@@ -1,14 +1,30 @@
 /**
- * Description: Create Net Server and recibed severals message second by second.
+ * Description: Create Net Server and recibed severals message second by second
+ * from two clients and show connections clienst number.
  */
 
 /** Require generics dependences */
 import net from 'net';
 import 'pretty-console-colors';
 
-const server = net.createServer((socket) => {
-  // 'connection' listener.
+// Define main variables.
+let server;
+
+// Function to show clients number connected.
+const showClientsConnected = () => {
+  server.getConnections((err, count) => {
+    if (err) throw err;
+    console.info(`Connections Number ${count}`);
+  });
+};
+
+// Create Server Net.
+server = net.createServer((socket) => {
+  // Connection Listener.
   console.log('Client connected');
+
+  // Show Clients number connected.
+  showClientsConnected();
 
   socket.on('data', (data) => {
     console.log(data.toString());
@@ -16,6 +32,9 @@ const server = net.createServer((socket) => {
 
   socket.on('end', () => {
     console.log('Client disconnected');
+
+    // Show Clients number connected.
+    showClientsConnected();
   });
   socket.pipe(socket);
 });
@@ -24,16 +43,12 @@ server.on('error', (err) => {
   console.error(err);
 });
 
-setInterval(() => {
-  server.getConnections((err, count) => {
-    console.info(`Connections Number ${count}`);
-  });
-}, 1000);
-
+// Define host and port of server.
 server.listen({
   host: '127.0.0.1',
   port: 8124,
 }, () => {
+  // Get and show info of server.
   const info = server.address();
   console.log(`Server Net actived on: ${info.address} and port: ${info.port}`);
 });

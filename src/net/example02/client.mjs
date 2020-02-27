@@ -6,11 +6,15 @@
 import net from 'net';
 import 'pretty-console-colors';
 
+// Create Client Connection Net.
 const client = net.createConnection({
   host: '127.0.0.1',
   port: 8124,
 }, () => {
+  // Connection Listener.
   console.log('Connected with server!');
+
+  // Write and send message to server.
   client.write('Hi from Net Client');
 });
 
@@ -30,6 +34,7 @@ client.on('end', () => {
   console.log('Disconnected from server');
 });
 
+// Write and send message to server again, again... :)
 setInterval(() => {
   client.write(`Hi from Net Client Again ${Date.now()}`);
 }, 1000);
