@@ -350,6 +350,26 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example04             # Server and two clients and send Message to differents client Pear to Pear.
 |   |   └── ...                   # ...
 |   |
+|   ├── os                        # OS.
+|   |   ├── example01             # Get and show CPUs numbers and props.
+|   |   ├── example02             # Get and show Free and Total System Memmory.
+|   |   ├── example03             # Get and show Home Directory.
+|   |   ├── example04             # Get and show Host Name Machine.
+|   |   ├── example05             # Get and show Network Interfaces and props.
+|   |   ├── example06             # Get and show Platform and Release.
+|   |   ├── example07             # Get and show Temporal Directory.
+|   |   ├── example08             # Get and show User Info.
+|   |   ├── example09             # Get and show Operating System Constants.
+|   |   └── ...                   # ...
+|   |
+|   ├── path                      # Path.
+|   |   ├── example01             # Get Basename of current folder.
+|   |   ├── example02             # Get Basename of internal folder.
+|   |   ├── example03             # Get all internal files from folder and get basename of files.
+|   |   ├── example04             # Get dirname of main folder and all internal files.
+|   |   ├── example02             # TODO.
+|   |   └── ...                   # ...
+|   |
 |   └── ...
 └── ...
 ```
