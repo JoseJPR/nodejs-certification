@@ -1,5 +1,5 @@
 /**
- * Description: Get dirname of main folder and all internal files.
+ * Description: Use extname for get extension of file name or all path.
  */
 
 /** Require generics dependences */
@@ -9,10 +9,10 @@ import 'pretty-console-colors';
 
 const __dirname = path.resolve();
 
-const directory = path.dirname(`${__dirname}/src/test/`);
-console.log(directory); // Return: .../src
+const directory = path.extname(`${__dirname}/src/test/`);
+console.log(directory); // (empty because this is a folder not a file) Return:
 
 const files = fs.readdirSync(`${__dirname}/src/path/test`);
 files.forEach((file) => {
-  console.log(path.dirname(`${__dirname}/src/test/${file}`)); // Return: .../src/test
+  console.log(path.extname(`${__dirname}/src/test/${file}`)); // Return: .icon .txt .md
 });

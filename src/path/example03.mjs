@@ -1,5 +1,5 @@
 /**
- * Description: Get all internal files from folder and get basename of files.
+ * Description: Use dirname for get the main folder and all internal files.
  */
 
 /** Require generics dependences */
@@ -9,8 +9,10 @@ import 'pretty-console-colors';
 
 const __dirname = path.resolve();
 
-console.log(__dirname);
+const directory = path.dirname(`${__dirname}/src/test/`);
+console.log(directory); // Return: .../src
+
 const files = fs.readdirSync(`${__dirname}/src/path/test`);
 files.forEach((file) => {
-  console.log(path.basename(`${__dirname}/src/test/${file}`)); // Return: file.ico file1.txt file3.md
+  console.log(path.dirname(`${__dirname}/src/test/${file}`)); // Return: .../src/test
 });

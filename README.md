@@ -363,11 +363,20 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── path                      # Path.
-|   |   ├── example01             # Get Basename of current folder.
-|   |   ├── example02             # Get Basename of internal folder.
-|   |   ├── example03             # Get all internal files from folder and get basename of files.
-|   |   ├── example04             # Get dirname of main folder and all internal files.
-|   |   ├── example02             # TODO.
+|   |   ├── example01             # Get Basename of current or specific folder.
+|   |   ├── example02             # Use basename for get all internal files from folder and get basename of files.
+|   |   ├── example03             # Use dirname for get the main folder and all internal files.
+|   |   ├── example04             # Use extname for get extension of file name or all path.
+|   |   ├── example05             # Get if any path is absolute.
+|   |   ├── example06             # Use joins method for concat all string for create a correct path.
+|   |   ├── example07             # Use normalize method for create corrects paths.
+|   |   ├── example08             # Use parse method for get object with all properties of paths.
+|   |   ├── example09             # Use relative method for compare two path and get an absolute path.
+|   |   ├── example10             # Use sep method for generate array with split and resolve a structure with folders and files.
+|   |   └── ...                   # ...
+|   |
+|   ├── perf-hooks                # Performance Hooks.
+|   |   ├── example01             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
