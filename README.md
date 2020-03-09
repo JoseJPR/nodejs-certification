@@ -145,6 +145,10 @@ This repository contains practical examples for each of the points in the offici
   - [Control Flow in Node - Tim Caswell](https://howtonode.org/control-flow)
   - [Understanding Node.js Async Flows: Parallel, Serial, Waterfall and Queues](https://medium.com/velotio-perspectives/understanding-node-js-async-flows-parallel-serial-waterfall-and-queues-6f9c4badbc17)
 
+- Performance Hooks
+  - [Timing is Everything](https://medium.com/the-node-js-collection/timing-is-everything-6d43fc9fd416)
+  - [Experimental Node.js: Testing the new performance hooks](https://blog.logrocket.com/experimental-node-js-testing-the-new-performance-hooks-31fcdd2a747e/)
+
 ## 📌 Methodologies and Guidelines
 
 ESTlint, tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. \
@@ -376,7 +380,12 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── perf-hooks                # Performance Hooks.
-|   |   ├── example01             # TODO.
+|   |   ├── example01             # Timer and measure for JSON parse and stringify functions examples.
+|   |   ├── example02             # Timer and measure for Get all files from specific folders in a function with callback.
+|   |   ├── example03             # Timer and timerify wrapper for Get all files from specific folder with function with callback.
+|   |   ├── example04             # Timers with severals externals request https for others REST APIs.
+|   |   ├── example05             # Show Measure and Mark timers with two Observers
+|   |   ├── example06             # TODO
 |   |   └── ...                   # ...
 |   |
 |   └── ...

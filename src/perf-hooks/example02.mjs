@@ -1,5 +1,5 @@
 /**
- * Description: TODO.
+ * Description: Timer and measure for Get all files from specific folders in a function with callback.
  */
 
 /** Require generics dependences */
@@ -10,23 +10,29 @@ import 'pretty-console-colors';
 
 const __dirname = path.resolve();
 
-function getAllFiles() {
-  const files = fs.readdirSync(`${__dirname}/src/path/test`);
+const getAllFiles = (folder, done) => {
+  performance.mark(`getAllFiles init ${folder}`);
+  const files = fs.readdirSync(`${__dirname}${folder}`);
   files.forEach((file) => {
-    console.log(path.resolve(`${__dirname}/src/test/${file}`));
+    console.log(file);
   });
-  console.log('getAllFiles Done!');
-}
-
-const wrapped = performance.timerify(getAllFiles);
+  performance.mark(`getAllFiles end ${folder}`);
+  performance.measure(`getAllFiles ${folder}`, `getAllFiles init ${folder}`, `getAllFiles end ${folder}`);
+  done();
+};
 
 const obs = new PerformanceObserver((list) => {
   const entries = list.getEntries();
   entries.forEach((entry) => {
     console.log(`Function: ${entry.name}`, entry.duration);
   });
-  obs.disconnect();
 });
-obs.observe({ entryTypes: ['function'] });
+obs.observe({ entryTypes: ['measure'], buffered: false });
 
-wrapped();
+getAllFiles('/src/path/test', () => {
+  console.log('getAllFiles Done!');
+});
+
+getAllFiles('/src', () => {
+  console.log('getAllFiles Done!');
+});

@@ -1,36 +1,33 @@
 /**
- * Description: TODO.
+ * Description: Timer and timerify wrapper for Get all files from
+ * specific folder with function with callback.
  */
 
 /** Require generics dependences */
 import { PerformanceObserver, performance } from 'perf_hooks';
-import https from 'https';
+import fs from 'fs';
+import path from 'path';
 import 'pretty-console-colors';
 
-const request = (url, done) => {
-  performance.mark(`request ${url} init`);
-  https.get(url, () => {
-    console.log(`Done for ${url}`);
+const __dirname = path.resolve();
+
+function getAllFiles() {
+  const files = fs.readdirSync(`${__dirname}/src`);
+  files.forEach((file) => {
+    console.log(path.resolve(`${__dirname}/src/${file}`));
   });
-  performance.mark(`request ${url} end`);
-  performance.measure(`request ${url}`, `request ${url} init`, `request ${url} end`);
-  done();
-};
+  console.log('getAllFiles Done!');
+}
+
+const wrapped = performance.timerify(getAllFiles);
 
 const obs = new PerformanceObserver((list) => {
-  const entry = list.getEntries()[0];
-  console.log(`Function: ${entry.name}`, entry.duration);
+  const entries = list.getEntries();
+  entries.forEach((entry) => {
+    console.log(`Function: ${entry.name}`, entry.duration);
+  });
+  obs.disconnect();
 });
-obs.observe({ entryTypes: ['measure'], buffered: false });
+obs.observe({ entryTypes: ['function'] });
 
-request('https://jsonplaceholder.typicode.com/todos/1', () => {
-  console.log('request: /todos/1 Done!');
-});
-
-request('https://jsonplaceholder.typicode.com/todos/10', () => {
-  console.log('request: /todos/10 Done!');
-});
-
-request('https://jsonplaceholder.typicode.com/todos', () => {
-  console.log('request /todos Done!');
-});
+wrapped();
