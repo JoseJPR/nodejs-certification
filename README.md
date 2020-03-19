@@ -38,9 +38,7 @@ This repository contains practical examples for each of the points in the offici
 [OS](https://nodejs.org/api/os.html) \
 [Path](https://nodejs.org/api/path.html) \
 [Performance Hooks](https://nodejs.org/api/perf_hooks.html) \
-[Policies](https://nodejs.org/api/policy.html) \
 [Process](https://nodejs.org/api/process.html) \
-[Punycode](https://nodejs.org/api/punycode.html) \
 [Query Strings](https://nodejs.org/api/querystring.html) \
 [Readline](https://nodejs.org/api/readline.html) \
 [REPL](https://nodejs.org/api/repl.html) \
@@ -385,7 +383,13 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example03             # Timer and timerify wrapper for Get all files from specific folder with function with callback.
 |   |   ├── example04             # Timers with severals externals request https for others REST APIs.
 |   |   ├── example05             # Show Measure and Mark timers with two Observers
-|   |   ├── example06             # TODO
+|   |   ├── example06             # Get duration timer of severals require functions of modules.
+|   |   └── ...                   # ...
+|   |
+|   ├── process                   # Process.
+|   |   ├── example01             # Use beforeExit event for get when event loop has no additional work to schedule.
+|   |   ├── example02             # Send message between procces, one http server and other write into file.
+|   |   ├── example03             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
