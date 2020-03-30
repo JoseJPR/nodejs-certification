@@ -1,10 +1,28 @@
-# NodeJS Certification 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Twitter: JoseJ_PR](https://img.shields.io/twitter/url?color=1991DA&label=Twitter%20%40JoseJ_PR&logo=twitter&logoColor=FFFFFF&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FJoseJ_PR)](https://twitter.com/JoseJ_PR)
+<p align="center">
+  <img src="https://github.com/nodejs/nodejs.dev/raw/master/src/images/nodejslogo.png" width="300" />
+  <br />
+  <img src="https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png" width="500" />
+</p>
 
-![Logo OpenJS](https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png)
+<h1 align="center">NodeJS Certification</h1>
 
-## Description
+<p align="center">🎓 This repository contains practical examples for each of the points in the official NodeJS documentation for the preparation of NodeJS certification - Application Developer (JSNAD).</p>
+
+<p align="center">
+  <a title="MIT License" href="LICENSE.md">
+    <img src="https://img.shields.io/github/license/gridsome/gridsome.svg?style=flat-square&label=License&colorB=6cc24a">
+  </a>
+  <a title="Twitter: JoseJ_PR" href="https://twitter.com/JoseJ_PR">
+    <img src="https://img.shields.io/twitter/url?color=1991DA&label=Twitter%20%40JoseJ_PR&logo=twitter&logoColor=FFFFFF&style=flat-square&url=https%3A%2F%2Ftwitter.com%2FJoseJ_PR">
+  </a>  
+  <a title="Github: Sponsors" href="https://github.com/sponsors/JoseJPR">
+    <img src="https://img.shields.io/twitter/url?color=032f62&label=Github%20Sponsors%20%40JoseJPR&logo=github&logoColor=FFFFFF&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fsponsors%2FJoseJPR">
+  </a>
+  <br />
+  <br />
+</p>
+
+## 🔖 Description
 
 The OpenJS Foundation is committed to growing our community of hosted projects. We believe it is important to foster a broad range of skills within the contributor and implementer communities, enabling continued and sustained adoption of JavaScript and related technologies.
 
