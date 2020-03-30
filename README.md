@@ -389,7 +389,22 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   ├── process                   # Process.
 |   |   ├── example01             # Use beforeExit event for get when event loop has no additional work to schedule.
 |   |   ├── example02             # Send message between procces, one http server and other write into file.
-|   |   ├── example03             # TODO.
+|   |   ├── example03             # Use multipleResolves event for tracking potential errors in an application while using the Promise constructor.
+|   |   ├── example04             # Use multipleResolves event with Promise.race() method returns a promise that fulfills or rejects as soon as one of the promises.
+|   |   ├── example05             # Use unhandledRejection event for get all promise without catch.
+|   |   ├── example06             # Use uncaughtException event for get all error of function without try/catch control.
+|   |   ├── example07             # Use warning event for example to get exceeded listener of Event Emitter.
+|   |   ├── example08             # The argv property contain all arguments include via CLI.
+|   |   ├── example09             # The process.cwd() method returns the current working directory of the Node.js process.
+|   |   ├── example10             # The process.emitWarning() method can be used to emit custom or application specific process warnings.
+|   |   ├── example11             # The process.execArgv property returns the set of Node.js-specific command-line options passed when the Node.js process was launched.
+|   |   ├── example12             # The process.exit() method instructs Node.js to terminate the process synchronously with an exit status of code.
+|   |   ├── example13             # Use getegid, geteuid, getgid, getgroups and getuid functions for show info process identity.
+|   |   ├── example14             # The bigint version of the process.hrtime() method returning the current high-resolution real time in nanoseconds.
+|   |   ├── example15             # The process.memoryUsage() method returns an object describing the memory usage of the Node.js process measured in bytes.
+|   |   ├── example16             # process.nextTick() adds callback to the "next tick queue".
+|   |   ├── example17             # pid, platform, ppid, release props for get additional data of process and NodeJS release.
+|   |   ├── example18             # Returns object the resource usage for the current process.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
