@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="https://github.com/nodejs/nodejs.dev/raw/master/src/images/nodejslogo.png" width="300" />
-  <br />
-  <img src="https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png" width="500" />
+  <img src="https://github.com/nodejs/nodejs.dev/raw/master/src/images/nodejslogo.png" width="250" />
+  <br /> <br />
+  <img src="https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png" width="400" />
+   <br /> <br /> <br />
 </p>
 
 <h1 align="center">NodeJS Certification</h1>
