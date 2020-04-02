@@ -426,6 +426,20 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example18             # Returns object the resource usage for the current process.
 |   |   └── ...                   # ...
 |   |
+|   ├── querystring               # Query String.
+|   |   ├── example01             # Use querystring.encode for encode json object to url params.
+|   |   ├── example02             # Use querystring.decode for decode url with several params to json object.
+|   |   └── ...                   # ...
+|   |
+|   ├── readline                  # Readline.
+|   |   ├── example01             # Use createInterface and create question and show user answer.
+|   |   ├── example02             # To exit this process you just have to press <ctrl> + C.
+|   |   ├── example03             # Get content for show from txt file for create interface.
+|   |   ├── example04             # Use "process.stdin" events to get more interactions.
+|   |   ├── example05             # Use line, close, pause and resume of readline for get events.
+|   |   ├── example06             # Use keypress, keyup and keydown for get "process.stdin" events.
+|   |   └── ...                   # ...
+|   |
 |   └── ...
 └── ...
 ```
