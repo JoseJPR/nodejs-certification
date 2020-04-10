@@ -441,6 +441,13 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── repl                      # REPL.
+|   |   ├── example01             # Create REPL and press .help for show all help commands.
+|   |   ├── example02             # Create and press 2 times ^C again or ^D or type .exit.
+|   |   ├── example03             # Run REPL, create a function and execute it..
+|   |   ├── example04             # Create "replServer" and use defineCommand for include Specific Commands.
+|   |   └── ...                   # ...
+|   |
+|   ├── report                    # Diagnostic Report.
 |   |   ├── example01             # TODO.
 |   |   └── ...                   # ...
 |   |
