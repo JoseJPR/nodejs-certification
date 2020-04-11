@@ -448,7 +448,10 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── report                    # Diagnostic Report.
-|   |   ├── example01             # TODO.
+|   |   ├── example01             # Write error and report to generic json file with an example.
+|   |   ├── example02             # Write error and report to concrete file with an example.
+|   |   ├── example03             # Launch an error and getReport to show javascriptStack object..
+|   |   ├── example04             # Show errors and reports via EventEmitter.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
