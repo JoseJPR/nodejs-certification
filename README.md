@@ -149,9 +149,6 @@ This repository contains practical examples for each of the points in the offici
   - [Aprende a usar ReadStreams en NodeJS](https://carlosvillu.com/aprende-a-usar-readstream-en-nodejs/)
   - [Storing data with Node.js writable streams](http://codewinds.com/blog/2013-08-19-nodejs-writable-streams.html)
 
-- Stream
-  - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs?utm_medium=Social&utm_source=twitter&utm_campaign=social)
-
 - Worker Threads
   - [Node.js multithreading: What are Worker Threads and why do they matter?](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
   - [A complete guide to threads in Node.js](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/)
@@ -165,6 +162,14 @@ This repository contains practical examples for each of the points in the offici
 - Performance Hooks
   - [Timing is Everything](https://medium.com/the-node-js-collection/timing-is-everything-6d43fc9fd416)
   - [Experimental Node.js: Testing the new performance hooks](https://blog.logrocket.com/experimental-node-js-testing-the-new-performance-hooks-31fcdd2a747e/)
+
+- Stream
+  - [Backpressuring in Streams](https://nodejs.org/es/docs/guides/backpressuring-in-streams/)
+  - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs/)
+  - [El manejo de streams en NodeJS](https://elabismodenull.wordpress.com/2017/03/28/el-manejo-de-streams-en-nodejs/)
+  - [Node.js Streams: Everything you need to know](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
+  - [Using Node.js to Read Really, Really Large Datasets & Files](https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33)
+  - [Streams For the Win: A Performance Comparison of Node.js Methods for Reading Large Datasets (Pt 2)](https://itnext.io/streams-for-the-win-a-performance-comparison-of-nodejs-methods-for-reading-large-datasets-pt-2-bcfa732fa40e)
 
 ## 📌 Methodologies and Guidelines
 
@@ -452,6 +457,13 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example02             # Write error and report to concrete file with an example.
 |   |   ├── example03             # Launch an error and getReport to show javascriptStack object..
 |   |   ├── example04             # Show errors and reports via EventEmitter.
+|   |   └── ...                   # ...
+|   |
+|   ├── stream                    # Stream.
+|   |   ├── example01             # Write severals string into file.txt with .write function.
+|   |   ├── example02             # Include callbacks for open, ready, finish, open and error events.
+|   |   ├── example03             # Write big file with .write method with this result: 1,1G stream-big-example03.txt.
+|   |   ├── example04             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
