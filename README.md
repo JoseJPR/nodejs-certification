@@ -1,13 +1,13 @@
 <p align="center">
   <img src="https://github.com/nodejs/nodejs.dev/raw/master/src/images/nodejslogo.png" width="250" />
-  <br /> <br />
-  <img src="https://www.linuxfoundation.org/wp-content/uploads/2019/03/openjsf-color.png" width="400" />
-   <br /> <br /> <br />
+  <br /> <br /> <br />
 </p>
 
-<h1 align="center">NodeJS Certification</h1>
+<h1 align="center">My own preparation for NodeJS Certification</h1>
 
-<p align="center">🎓 This repository contains practical examples for each of the points in the official NodeJS documentation for the preparation of NodeJS certification - Application Developer (JSNAD).</p>
+<p align="center">🎓 This repository contains examples that I have done for my own preparation for the NodeJS certification exam - Application Developer (JSNAD).</p>
+
+<p align="center">This content is not official from the OpenJS Foundation or from NodeJS.</p>
 
 <p align="center">
   <a title="MIT License" href="LICENSE.md">
@@ -25,15 +25,7 @@
 
 ## 🔖 Description
 
-The OpenJS Foundation is committed to growing our community of hosted projects. We believe it is important to foster a broad range of skills within the contributor and implementer communities, enabling continued and sustained adoption of JavaScript and related technologies.
-
-[OpenJS Fundation](https://openjsf.org)
-
-The OpenJS Node.js Application Developer certification is ideal for the Node.js developer with at least two years of experience working with Node.js.
-
-[Application Developer (JSNAD)](https://training.linuxfoundation.org/certification/jsnad/)
-
-This repository contains practical examples for each of the points in the official NodeJS documentation for the preparation of NodeJS certification.
+I have been working in this repository for several months. I have wanted to share OpenSource examples that I have developed for my own preparation. These examples are organized by folders for each NodeJS API.
 
 ## 📖 Temary
 
