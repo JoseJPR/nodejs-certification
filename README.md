@@ -455,7 +455,7 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example01             # Write severals string into file.txt with .write function.
 |   |   ├── example02             # Include callbacks for open, ready, finish, open and error events.
 |   |   ├── example03             # Write big file with .write method with this result: 1,1G stream-big-example03.txt.
-|   |   ├── example04             # TODO.
+|   |   ├── example04             # Show how many seconds the function fs.writeFile and fs.createWriteStream needs to perform the same task.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
