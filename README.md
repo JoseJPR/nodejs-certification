@@ -158,6 +158,7 @@ I have been working in this repository for several months. I have wanted to shar
 - Stream
   - [Backpressuring in Streams](https://nodejs.org/es/docs/guides/backpressuring-in-streams/)
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs/)
+  - [Node.js Streams Tutorial - An Introduction to Node.js Streams](https://www.youtube.com/watch?v=YpVDaVufDVU)
   - [El manejo de streams en NodeJS](https://elabismodenull.wordpress.com/2017/03/28/el-manejo-de-streams-en-nodejs/)
   - [Node.js Streams: Everything you need to know](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
   - [Using Node.js to Read Really, Really Large Datasets & Files](https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33)
@@ -456,6 +457,8 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example02             # Include callbacks for open, ready, finish, open and error events.
 |   |   ├── example03             # Write big file with .write method with this result: 1,1G stream-big-example03.txt.
 |   |   ├── example04             # Show how many seconds the function fs.writeFile and fs.createWriteStream needs to perform the same task.
+|   |   ├── example05             # Create origin and destination Stream and use gzip for compress file destination.
+|   |   ├── example06             # Create origin Stream, Custom transform Stream and destination Stream for replace text from origin to destination file.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
