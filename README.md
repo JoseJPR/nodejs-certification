@@ -460,6 +460,8 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example04             # Show how many seconds the function fs.writeFile and fs.createWriteStream needs to perform the same task.
 |   |   ├── example05             # Create origin and destination Stream and use gzip for compress file destination.
 |   |   ├── example06             # Create origin Stream, Custom transform Stream and destination Stream for replace text from origin to destination file.
+|   |   ├── example07             # Create http server and Read Stream for create gz file from txt file and download with browser.
+|   |   ├── example08             # Create http server and Read Stream for return html file with gzip encoding.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
