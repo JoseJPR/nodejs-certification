@@ -159,6 +159,7 @@ I have been working in this repository for several months. I have wanted to shar
   - [Backpressuring in Streams](https://nodejs.org/es/docs/guides/backpressuring-in-streams/)
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs/)
   - [Node.js Streams Tutorial - An Introduction to Node.js Streams](https://www.youtube.com/watch?v=YpVDaVufDVU)
+  - [Node.js Stream Tutorial - The Power and Simplicity of Node.js Streams](https://www.youtube.com/watch?v=GpGTYp_G9VE)
   - [El manejo de streams en NodeJS](https://elabismodenull.wordpress.com/2017/03/28/el-manejo-de-streams-en-nodejs/)
   - [Node.js Streams: Everything you need to know](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
   - [Using Node.js to Read Really, Really Large Datasets & Files](https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33)
