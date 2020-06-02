@@ -462,6 +462,12 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example06             # Create origin Stream, Custom transform Stream and destination Stream for replace text from origin to destination file.
 |   |   ├── example07             # Create http server and Read Stream for create gz file from txt file and download with browser.
 |   |   ├── example08             # Create http server and Read Stream for return html file with gzip encoding.
+|   |   ├── example09             # Create Readable with iterate function with yield.
+|   |   ├── example10             # Create Readable with iterate array.
+|   |   ├── example11             # Create Readable Stream with iterate map with severals objects items.
+|   |   ├── example12             # Create Readable Object with iterate map and two pipes for work with severals Streams Writables.
+|   |   ├── example13             # Create Readable from array with iterate map, transform and Write with two Stream file.
+|   |   ├── example14             # TODO
 |   |   └── ...                   # ...
 |   |
 |   └── ...
