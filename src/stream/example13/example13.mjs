@@ -1,5 +1,5 @@
 /**
- * Description: Create Readable from array with iterate map, transform and Write with two Stream file.
+ * Description: Parallel Pipes with Readable from array with iterate map, transform and Write with two Stream file.
  */
 
 /** Import generics dependences */
