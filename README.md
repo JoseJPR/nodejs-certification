@@ -469,7 +469,7 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example13             # Parallel Pipes with Readable from array with iterate map, transform and Write with two Stream file.
 |   |   ├── example14             # Sequentials Pipes with end option to false and Readable and Duplex with write functions more info with timeouts.
 |   |   ├── example15             # Sequentials Pipes and Readable with autoClose option to false and Duplex with end option to false and set severals writes functions.
-|   |   ├── example16             # TODO
+|   |   ├── example16             # Work with Readline and Write Stream to save line by line.
 |   |   ├── example17             # TODO
 |   |   ├── example18             # TODO
 |   |   ├── example19             # TODO
