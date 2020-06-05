@@ -1,0 +1,6 @@
+[
+  "Hi, how are you?",
+  "My name is Jose",
+  "My phone is 627282928 and my email me@josejpr.com",
+  "Bye bye :)"
+]
