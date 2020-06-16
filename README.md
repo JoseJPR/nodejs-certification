@@ -55,7 +55,6 @@ I have been working in this repository for several months. I have wanted to shar
 [REPL](https://nodejs.org/api/repl.html) \
 [Report](https://nodejs.org/api/report.html) \
 [Stream](https://nodejs.org/api/stream.html) \
-[String Decoder](https://nodejs.org/api/string_decoder.html) \
 [Timers](https://nodejs.org/api/timers.html) \
 [TLS/SSL](https://nodejs.org/api/tls.html) \
 [Trace Events](https://nodejs.org/api/tracing.html) \
@@ -471,9 +470,16 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example15             # Sequentials Pipes and Readable with autoClose option to false and Duplex with end option to false and set severals writes functions.
 |   |   ├── example16             # Work with Readline and Write Stream to save line by line.
 |   |   ├── example17             # Create Stream from origin file, replace all emails to * characters and save into new Stream file.
-|   |   ├── example18             # TODO
-|   |   ├── example19             # TODO
-|   |   ├── example20             # TODO
+|   |   └── ...                   # ...
+|   |
+|   ├── timers                    # Timers.
+|   |   ├── example01             # timeout vs immediate.
+|   |   ├── example02             # timeout vs immediate with inside timers.
+|   |   ├── example03             # timeout vs severals immediate.
+|   |   ├── example04             # timeout vs immediate vs nextTick.
+|   |   ├── example05             # nextTick with try/catch and not block timeout and immediate.
+|   |   ├── example06             # timeout, immediate, nextTick and promises inside this.
+|   |   ├── example07             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
