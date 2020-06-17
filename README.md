@@ -478,8 +478,8 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example03             # timeout vs severals immediate.
 |   |   ├── example04             # timeout vs immediate vs nextTick.
 |   |   ├── example05             # nextTick with try/catch and not block timeout and immediate.
-|   |   ├── example06             # timeout, immediate, nextTick and promises inside this.
-|   |   ├── example07             # TODO.
+|   |   ├── example06             # timeout, immediate, nextTick and promises inside this with try/catch/finally.
+|   |   ├── example07             # timeout, immediate, nextTick and promises inside this with then/catch/finally.
 |   |   └── ...                   # ...
 |   |
 |   └── ...

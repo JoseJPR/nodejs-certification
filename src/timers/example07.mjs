@@ -1,5 +1,5 @@
 /**
- * Description: timeout, immediate, nextTick and promises inside this with try/catch/finally.
+ * Description: timeout, immediate, nextTick and promises inside this with then/catch/finally.
  */
 console.log('Hi from NodeJS');
 
@@ -26,32 +26,32 @@ const testPromise = (from) => new Promise((resolve, reject) => {
   }
 });
 
-setTimeout(async () => {
-  try {
-    console.log(await testPromise('timeout'));
-  } catch (err) {
+setTimeout(() => {
+  testPromise('timeout').then((result) => {
+    console.log(result);
+  }).catch((err) => {
     console.error(err);
-  } finally {
+  }).finally(() => {
     console.log('timeout finally');
-  }
+  });
 });
 
-setImmediate(async () => {
-  try {
-    console.log(await testPromise('immediate'));
-  } catch (err) {
+setImmediate(() => {
+  testPromise('immediate').then((result) => {
+    console.log(result);
+  }).catch((err) => {
     console.error(err);
-  } finally {
+  }).finally(() => {
     console.log('immediate finally');
-  }
+  });
 });
 
 process.nextTick(async () => {
-  try {
-    console.log(await testPromise('nextTick'));
-  } catch (err) {
-    console.error(err);
-  } finally {
+  testPromise('nextTick').then((result) => {
+    console.log(result);
+  }).catch((err) => {
+    console.error('ERROR', err);
+  }).finally(() => {
     console.log('nextTick finally');
-  }
+  });
 });
