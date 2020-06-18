@@ -56,11 +56,6 @@ I have been working in this repository for several months. I have wanted to shar
 [Report](https://nodejs.org/api/report.html) \
 [Stream](https://nodejs.org/api/stream.html) \
 [Timers](https://nodejs.org/api/timers.html) \
-[TLS/SSL](https://nodejs.org/api/tls.html) \
-[Trace Events](https://nodejs.org/api/tracing.html) \
-[TTY](https://nodejs.org/api/tty.html) \
-[UDP/Datagram](https://nodejs.org/api/dgram.html) \
-[URL](https://nodejs.org/api/url.html) \
 [Utilities](https://nodejs.org/api/util.html) \
 [V8](https://nodejs.org/api/v8.html) \
 [VM](https://nodejs.org/api/vm.html) \
@@ -480,6 +475,18 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example05             # nextTick with try/catch and not block timeout and immediate.
 |   |   ├── example06             # timeout, immediate, nextTick and promises inside this with try/catch/finally.
 |   |   ├── example07             # timeout, immediate, nextTick and promises inside this with then/catch/finally.
+|   |   └── ...                   # ...
+|   |
+|   ├── util                      # Util.
+|   |   ├── example01             # Use .callbackify method with async function.
+|   |   ├── example02             # Use .callbackify method with Promise.
+|   |   ├── example03             # Return with .debuglog method param.
+|   |   ├── example04             # Return with .debuglog method severals params.
+|   |   ├── example05             # TODO.
+|   |   ├── example06             # TODO.
+|   |   ├── example07             # TODO.
+|   |   ├── example08             # TODO.
+|   |   ├── example09             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
