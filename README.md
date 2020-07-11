@@ -482,6 +482,14 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example02             # Use .callbackify method with Promise.
 |   |   ├── example03             # Return with .debuglog method param.
 |   |   ├── example04             # Return with .debuglog method severals params.
+|   |   ├── example05             # Return console with color in terminal and params.
+|   |   └── ...                   # ...
+|   |
+|   ├── worker-threads            # Worker Threads.
+|   |   ├── example01             # Create Worker with the same file..
+|   |   ├── example02             # Create Worker with differents files for create two parallels tasks.
+|   |   ├── example03             # Create two Worker and send messages with parent.
+|   |   ├── example04             # Create ten Worker and send messages to parent with finish setTimeout with random time.
 |   |   ├── example05             # TODO.
 |   |   ├── example06             # TODO.
 |   |   ├── example07             # TODO.
