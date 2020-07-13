@@ -490,11 +490,15 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   ├── example02             # Create Worker with differents files for create two parallels tasks.
 |   |   ├── example03             # Create two Worker and send messages with parent.
 |   |   ├── example04             # Create ten Worker and send messages to parent with finish setTimeout with random time.
+|   |   ├── example05             # Create Worker when update the content of local json file for change it and save into other file.
+|   |   └── ...                   # ...
+|   |
+|   ├── zlib                      # Zlib.
+|   |   ├── example01             # TODO.
+|   |   ├── example02             # TODO.
+|   |   ├── example03             # TODO.
+|   |   ├── example04             # TODO.
 |   |   ├── example05             # TODO.
-|   |   ├── example06             # TODO.
-|   |   ├── example07             # TODO.
-|   |   ├── example08             # TODO.
-|   |   ├── example09             # TODO.
 |   |   └── ...                   # ...
 |   |
 |   └── ...

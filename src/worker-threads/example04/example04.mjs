@@ -1,6 +1,7 @@
 /* eslint-disable no-new */
 /**
- * Description: Create ten Worker and send messages to parent with finish setTimeout with random time.
+ * Description: Create ten Worker and send messages to
+ *              parent with finish setTimeout with random time.
  */
 
 /** Import generics dependences */
