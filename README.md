@@ -494,11 +494,12 @@ $openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' \ -keyo
 |   |   └── ...                   # ...
 |   |
 |   ├── zlib                      # Zlib.
-|   |   ├── example01             # TODO.
-|   |   ├── example02             # TODO.
-|   |   ├── example03             # TODO.
-|   |   ├── example04             # TODO.
-|   |   ├── example05             # TODO.
+|   |   ├── example01             # Compress to zip destination file from txt file how source.
+|   |   ├── example02             # Compress jpg file to zip file and decompress zip for get jpg origin file.
+|   |   ├── example03             # Create .gz file from jpg file and uncompress with createGunzip method.
+|   |   ├── example04             # Create severals .gz file with gzip, deflate and brotli methods. You can see which one is more efficient.
+|   |   ├── example05             # Create http server and return html file with Brotli Compress via response Stream.
+|   |   ├── example06             # Create http server and Static files into a public folder.
 |   |   └── ...                   # ...
 |   |
 |   └── ...
