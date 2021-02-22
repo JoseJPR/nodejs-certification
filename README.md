@@ -165,7 +165,14 @@ ESTlint, tool for identifying and reporting on patterns found in ECMAScript/Java
   [NPM ESLint](https://www.npmjs.com/package/eslint) \
   [NPM ESLint | Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
-## 📐 Infrastructure
+## ✅ Prerequisites
+
+In order to work with this project, your local environment must have at least the following versions:
+
+* NodeJS Version: 14.xx
+* NPM Version: 6.14.7
+
+## 📐 How to work with this project
 
 ### Install Dependencies
 
@@ -176,11 +183,7 @@ $npm i
 ### Running the App
 
 ```bash
-# If your Node.js version is previous than v13.2.0
-$node  --experimental-modules ./src/'folder'/'file.mjs'
-
-# If your Node.js version is v13.2.0 or higher
-$node ./src/'folder'/'file.mjs'
+$node ./src/'folder'/'file.js'
 ```
 
 ### Generate the SSL Certificate for localhost
