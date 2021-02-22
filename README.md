@@ -5,7 +5,7 @@
 
 <h1 align="center">My own preparation for Node.js Certification</h1>
 
-<p align="center">🎓 This repository contains examples that I have done for my own preparation for the NodeJS certification exam - Application Developer (JSNAD).</p>
+<p align="center">🎓 This repository contains examples that I have done for my own preparation for the Node.js certification exam - Application Developer (JSNAD).</p>
 
 <p align="center">This content is not official from the OpenJS Foundation or from Node.js.</p>
 
