@@ -6,7 +6,6 @@
 import net from 'net';
 import 'pretty-console-colors';
 
-
 const client = net.createConnection({
   host: '127.0.0.1',
   port: 8124,

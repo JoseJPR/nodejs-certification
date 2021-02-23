@@ -5,9 +5,9 @@
 /** Import generics dependences */
 import http from 'http';
 import 'pretty-console-colors';
-import RouteMain from './routes/main.mjs';
-import RouteArticles from './routes/articles.mjs';
-import RouteNotFound from './routes/notfound.mjs';
+import RouteMain from './routes/main.js';
+import RouteArticles from './routes/articles.js';
+import RouteNotFound from './routes/notfound.js';
 
 // Register all routes from class.
 const routes = [
