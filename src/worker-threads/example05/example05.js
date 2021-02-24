@@ -15,7 +15,7 @@ const __dirname = path.resolve();
 fs.watch(`${__dirname}/src/worker-threads/example05/data.json`, { encoding: 'buffer' }, (eventType) => {
   if (eventType === 'change') {
     // For save worker;
-    const worker = new Worker(`${__dirname}/src/worker-threads/example05/task.mjs`);
+    const worker = new Worker(`${__dirname}/src/worker-threads/example05/task.js`);
     worker.postMessage({
       origin: `${__dirname}/src/worker-threads/example05/data.json`,
       destination: `${__dirname}/src/worker-threads/example05/new.json`,

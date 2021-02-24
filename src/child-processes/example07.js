@@ -15,8 +15,8 @@ const fncFork = () => {
 
   // Declare array subProcesses with two forks functions.
   const subProcesses = [
-    fork(`${__dirname}/src/child-processes/example07-sub01.mjs`),
-    fork(`${__dirname}/src/child-processes/example07-sub02.mjs`),
+    fork(`${__dirname}/src/child-processes/example07-sub01.js`),
+    fork(`${__dirname}/src/child-processes/example07-sub02.js`),
   ];
 
   // Iterate in subProcess array for launch all fork functions.
