@@ -15,7 +15,7 @@ const workers = [];
 
 // Iterate and create new workers.
 for (let i = 0; i <= 9; i += 1) {
-  workers.push(new Worker(`${__dirname}/src/worker-threads/example04/task.mjs`));
+  workers.push(new Worker(`${__dirname}/src/worker-threads/example04/task.js`));
 }
 
 // Active on message event for each Worker.

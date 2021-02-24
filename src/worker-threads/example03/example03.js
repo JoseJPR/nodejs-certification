@@ -10,8 +10,8 @@ import path from 'path';
 const __dirname = path.resolve();
 
 // Define two Workers with differents files.
-const workerA = new Worker(`${__dirname}/src/worker-threads/example03/task-a.mjs`);
-const workerB = new Worker(`${__dirname}/src/worker-threads/example03/task-b.mjs`);
+const workerA = new Worker(`${__dirname}/src/worker-threads/example03/task-a.js`);
+const workerB = new Worker(`${__dirname}/src/worker-threads/example03/task-b.js`);
 
 // Active on message event for Worker A;
 workerA.on('message', (data) => {
