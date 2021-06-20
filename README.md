@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/nodejs/nodejs.dev/raw/master/src/images/nodejslogo.png" width="350" />
+  <img src="./assets/logo-nodejs.png" width="350" />
   <br /> <br />
 </p>
 
