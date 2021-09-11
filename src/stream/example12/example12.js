@@ -20,7 +20,7 @@ const destinationFile = fs.createWriteStream(`${__dirname}/src/stream/example12/
 
 // Launch callback when Destination Array finish.
 destinationFile.on('finish', () => {
-  fs.readFile(`${__dirname}/src/stream/example13/destination-text.txt`, (err, data) => {
+  fs.readFile(`${__dirname}/src/stream/example12/destination-text.txt`, (err, data) => {
     if (err) console.error(err);
     console.log('destinationFile -> ', data.toString());
   });
